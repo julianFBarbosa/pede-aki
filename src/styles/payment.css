@@ -1,0 +1,18 @@
+/* PaymentOption.css */
+
+.payment-option {
+    margin-top: 16px;
+    align-items: center;
+    display: flex;
+  }
+
+  .payment-option label {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+
+  .payment-option select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
