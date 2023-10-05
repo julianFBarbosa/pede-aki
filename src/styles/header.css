@@ -199,6 +199,7 @@
   cursor: pointer;
 }
 
+
 /* Adicione este estilo ao seu arquivo CSS */
 .login__button {
   background-color: #df2020; /* Cor de fundo vermelha */
@@ -207,4 +208,16 @@
   color: white; /* Cor do texto branco para melhor contraste */
   text-decoration: none; /* Remova o sublinhado padrão de links */
   transition: background-color 0.3s ease; /* Adicione uma transição suave para a mudança de cor de fundo */
+  max-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+}
+
+.login__button:hover,
+.login__button:focus-visible {
+  border: 2px solid #df2020;
+  color: #df2020;
+  background-color: #fff;
 }

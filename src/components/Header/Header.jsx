@@ -10,7 +10,6 @@ import { useSelector, useDispatch } from "react-redux";
 import { cartUiActions } from "../../store/shopping-cart/cartUiSlice";
 
 import "../../styles/header.css";
-console.log('logo', logo)
 
 const nav__links = [
   {
@@ -102,10 +101,10 @@ const Header = () => {
               <span className="cart__badge">{totalQuantity}</span>
             </span>
 
-            <Link to="/login" className="order__btn d-flex align-items-center justify-content-between login__button">
-              Login <i className="ri-arrow-right-s-line"></i>
+            <Link to="/login" className="login__button">
+              <span>Login</span>
+              <i className="ri-arrow-right-s-line"></i>
             </Link>
-
 
             <span className="mobile__menu" onClick={toggleMenu}>
               <i className="ri-menu-line"></i>
