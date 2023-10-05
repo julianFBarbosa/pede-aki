@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import guyImg from "../assets/images/delivery-guy.png";
 
 import "../styles/hero-section.css";
+console.log('guyImg', guyImg)
 
 const Home = () => {
   return (

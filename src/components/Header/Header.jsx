@@ -2,13 +2,15 @@ import React, { useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { Container } from "reactstrap";
-import logo from "/src/components/assets/images/res-logo.png";
+import logo from "./teste.png";
+
 import { NavLink, Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
 import { cartUiActions } from "../../store/shopping-cart/cartUiSlice";
 
 import "../../styles/header.css";
+console.log('logo', logo)
 
 const nav__links = [
   {
